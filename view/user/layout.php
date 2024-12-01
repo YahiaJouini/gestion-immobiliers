@@ -14,13 +14,13 @@
     <?php
     include "nav.php"; ?>
     
-    <div class="container mt-5 ">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h1 class="display-4 font-medium"><?php echo $titre; ?></h1>
-                <?= $contenu ?>
+    <div class="mt-5">
+        <div class="container">
+        <h1 class="text-center display-4 fw-bold mb-4"><?php echo $titre; ?></h1>
+            <div class="mt-5">
+                </div>
             </div>
         </div>
-    </div>
+        <?= $contenu ?>
 </body>
 </html>
