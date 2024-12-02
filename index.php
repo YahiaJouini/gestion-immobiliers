@@ -8,7 +8,7 @@ ob_start(); ?>
     Pour les propriétaires et gestionnaires, profitez d'outils puissants pour gérer vos biens efficacement, de la location aux paiements, en passant par la maintenance et les rapports. Rejoignez-nous et simplifiez votre parcours immobilier ! ✨
   </p>
   <div class="text-center">
-    <a href="/explore" class="btn btn-primary btn-lg">Explorer les propriétés</a>
+    <a href="/controller/user/explore.php" class="btn btn-primary btn-lg">Explorer les propriétés</a>
   </div>
 </div>
 </div>

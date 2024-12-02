@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Espace Admin</a>
+    <a class="navbar-brand" href="/view/admin/home.php">Espace Admin</a>
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
@@ -10,6 +10,14 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/controller/admin/liste-immobiliers.php">Liste des Immobiliers
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/controller/admin/add-immobiliers.php">Ajouter un Immobilier
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">Espace user
           </a>
         </li>
       </ul>

@@ -19,8 +19,8 @@ ob_start();
                     <td><?= htmlspecialchars($immobilier[1]) ?></td>
                     <td><?= htmlspecialchars($immobilier[2]) ?></td>
                     <td>
-                        <a href="update.php?id=<?= urlencode($immobilier[0]) ?>" class="btn btn-warning btn-sm">Update</a>
-                        <a href="delete.php?id=<?= urlencode($immobilier[0]) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cet immobilier ?');">Delete</a>
+                        <a href="update.php?ref=<?= urlencode($immobilier[0]) ?>" class="btn btn-warning btn-sm">Update</a>
+                        <a href="delete.php?ref=<?= urlencode($immobilier[0]) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cet immobilier ?');">Delete</a>
                     </td>
                 </tr>
             <?php endforeach; ?>

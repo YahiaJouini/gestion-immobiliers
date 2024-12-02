@@ -13,7 +13,10 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about.php">About</a>
+          <a class="nav-link" href="/view/user/about.php">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/view/admin/home.php">Espace Admin</a>
         </li>
       </ul>
       <form class="d-flex">
